@@ -57,10 +57,35 @@ img {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
+  font-style: italic;
 }
 
 .inspiringQuoteSection .quotedAuthor {
   font-size: 24px;
   padding-top: 2em;
   margin-left: auto;
+}
+
+.callToActionSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.callToActionSection .callToActionSignUp {
+  background-color: #3882f6;
+  display: flex;
+  color: #f9faf8;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.callToActionSignUp button {
+  background-color: #3882f6;
+  border: 1px #f9faf8 solid;
+  color: #f9faf8;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding: 10px;
 }
