@@ -45,3 +45,22 @@ img {
   align-items: center;
   flex: 1;
 }
+
+.inspiringQuoteSection {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.inspiringQuoteSection p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.inspiringQuoteSection .quotedAuthor {
+  font-size: 24px;
+  padding-top: 2em;
+  margin-left: auto;
+}
