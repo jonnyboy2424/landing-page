@@ -28,29 +28,53 @@ img {
   height: 400px;
 }
 
+.AwesomeSignUpSection {
+}
+
 .smallerImage {
   width: 200px;
   height: 200px;
 }
 
+.randomInfoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
 .randomInformationGroup {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   margin: 20px;
+}
+
+.randomInfo {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+
+.randomInfo img {
+  width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
 }
 
 .randomInformationGroup div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  flex-wrap: wrap;
 }
 
 .inspiringQuoteSection {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .inspiringQuoteSection p {
@@ -62,7 +86,7 @@ img {
 
 .inspiringQuoteSection .quotedAuthor {
   font-size: 24px;
-  padding-top: 2em;
+  padding-top: 1em;
   margin-left: auto;
   font-style: normal;
 }
@@ -84,11 +108,12 @@ img {
 
 .callToActionSignUp button {
   background-color: #3882f6;
+  font-weight: 700;
   border: 1px #f9faf8 solid;
   color: #f9faf8;
   margin-left: 100px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px 20px;
 }
 
 footer {
