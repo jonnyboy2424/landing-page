@@ -13,6 +13,12 @@ body {
   color: #f9faf8;
 }
 
+.button-styling {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -50,8 +56,6 @@ img {
 
 .AwesomeSignUpSection button {
   padding: 15px 20px;
-  background-color: #3882f6;
-  color: #f9faf8;
   border-radius: 10px;
   margin-top: 10px;
   border: none;
@@ -137,10 +141,7 @@ img {
 }
 
 .callToActionSignUp button {
-  background-color: #3882f6;
-  font-weight: 700;
   border: 1px #f9faf8 solid;
-  color: #f9faf8;
   margin-left: 100px;
   border-radius: 10px;
   padding: 5px 20px;
