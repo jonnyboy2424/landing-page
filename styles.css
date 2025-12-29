@@ -29,6 +29,17 @@ img {
 }
 
 .AwesomeSignUpSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+}
+
+.AwesomeSignUpSection div {
+  max-width: 350px;
 }
 
 .smallerImage {
