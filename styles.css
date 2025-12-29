@@ -8,15 +8,23 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.dark-styling {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px;
 }
 
 header ul {
   display: flex;
   gap: 20px;
-  margin: 20px;
 }
 
 header ul li {
@@ -33,13 +41,21 @@ img {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  background-color: #1f2937;
-  color: #f9faf8;
   padding: 30px;
 }
 
 .AwesomeSignUpSection div {
   max-width: 350px;
+}
+
+.AwesomeSignUpSection button {
+  padding: 15px 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .smallerImage {
@@ -130,7 +146,5 @@ img {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #1f2937;
-  color: #f9faf8;
   padding: 25px;
 }
